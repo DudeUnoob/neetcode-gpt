@@ -14,8 +14,8 @@ class Solution:
         x = np.array(x)
         gamma = np.array(gamma)
         beta = np.array(beta)
-        running_mean = np.array(running_mean, dtype=np.float64)
-        running_var = np.array(running_var, dtype=np.float64)
+        running_mean = np.array(running_mean)
+        running_var = np.array(running_var)
 
 
 
